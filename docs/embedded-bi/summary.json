@@ -1,0 +1,606 @@
+{
+  "Embedded BI": {
+    "Overview": "overview",
+    "Setup": {
+      "Overview": "overview",
+      "Deploying in Windows": {
+        "Prerequisites": "prerequisites-windows",
+        "Installation and Deployment": "installation-and-deployment",
+        "Version Upgrade": "upgrade-to-latest",
+        "Installing Bold BI over Bold Reports": "install-when-bold-report-exist"
+      },
+      "Deploying in Azure": {
+        "Prerequisites": "prerequisites-azure-vm",
+        "Recommended Azure VM configuration": "vm-configuration",
+        "Self-deploy a Bold BI Server on Microsoft Azure": "self-deploy-azure-vm",
+        "Bold BI in Microsoft Azure Marketplace": "new-azure-vm",
+        "Upgrade VM to latest version": "update-azure-vm"
+      },
+      "Deploying in Azure App Service": {
+        "Prerequisites": "prerequisites",
+        "Recommendations": "recommendations",
+        "Using ARM template": "using-arm-template",
+        "Upgrade":{
+          "Upgrade to latest": "upgrade-to-latest",
+          "Upgrade to v4.1": "upgrade-to-v4.1"
+        }
+      },
+      "Deploying in Linux": {
+        "Prerequisites": "prerequisites-linux",
+        "Installation and Deployment": {
+		    "v4.1 or Older": {
+			    "Bold BI on Ubuntu": "bold-bi-on-ubuntu",
+			    "Bold BI on CentOS": "bold-bi-on-centos"
+		      },
+          "Bold BI on Ubuntu": "bold-bi-on-ubuntu",
+          "Bold BI on CentOS": "bold-bi-on-centos"
+        },
+        "Deploy Bold BI Using Apache Server": {
+          "Configure Apache Server In CentOS": "configure-apache-server-in-centos",
+          "Configure Apache Server In Ubuntu": "configure-apache-server-in-ubuntu"
+
+        },
+        "Install Optional Libraries": "install-optional-libraries.md",
+		"Install optional libraries for version 4.1 or older":"install-optional-libraries-for-v4.1-or-older.md",
+        "Upgrading Bold BI Linux Server": "upgrade-to-latest"
+      },
+      "Deploying in Kubernetes": "deploying-in-kubernetes",
+      "Deploying in Docker": "deploying-in-docker"
+    },
+	"Application Startup": {
+	        "Latest": "latest",
+		    "v4.2.68 or earlier": "v4.2.68-or-earlier"
+		      },
+    "Getting Started": {
+      "Quick Start": "quick-start.md"
+    },
+    "JavaScript based": {
+      "Getting Started": "getting-started",
+	  "Getting Started with NPM": "getting-started-with-npm",
+      "Designer Embedding": "designer-embedding",
+      "Widget Embedding": "widget-embedding",
+      "Multiple Dashboard and Widget Embedding": "multiple-dashboard-and-widget-embedding",
+      "Multi-Tabbed Dashboard Embedding": "multi-tabbed-dashboard-embedding",
+      "Pinboard Embedding": "pinboard-embedding",
+      "Datasource Embedding": "datasource-embedding",
+      "Authorization Server": "authorize-server",
+      "Group Based Authorization": "group-based-authorization",
+      "API Reference": {
+        "Members": "members.md",
+        "Methods": "methods.md",
+        "Events": "events.md"
+      },
+      "Samples": {
+        "v3.3.40 or later": {
+          "ASP.NET Core": "asp-net-core",
+          "ASP.NET MVC": "asp-net-mvc",
+          "Angular": "angular",
+          "ASP.NET": "asp-net",
+		  "Django": "django",
+          "Blazor with javascript": "blazor-with-javascript",
+          "Coldfusion": "coldfusion",
+          "Ruby on Rails": "ruby-on-rails",
+          "React with ASP.NET Core": "react-core",
+          "React with Go": "react-with-go",
+          "Winforms": "winforms",
+          "Node.js": "node-js",
+          "PHP with javascript": "php-with-javascript",
+          "VueJS with Go": "vuejs-with-go",
+          "VueJS with core": "vuejs-with-core",
+          "WPF": "wpf",
+          "Xamarin": "xamarin",
+          "Java Servlet": "java-servlet"
+        },
+        "v3.2.16": {
+          "ASP.NET Core": "asp-net-core",
+          "ASP.NET MVC": "asp-net-mvc",
+          "Angular": "angular"
+        }
+      }
+    },
+    "iFrame based": {
+      "Dashboard Embedding": "dashboard-view-mode",
+      "Dashboard embedding using Single Sign-On": "dashboard-embedding-using-single-sign-on",
+      "Dashboard Embedding with Views": "dashboard-embedding-with-views",
+      "Secured Embedding": "embed-dashboards-with-advanced-security",
+      "Widget Embedding": "widget-embedding",
+      "Sample": {
+        "Dashboard Embedding": {
+		"ASP.NET MVC":"asp.net-mvc",
+		"Javascript":"javascript"
+		},
+        "Data source Embedding": {
+		"Javascript":"javascript"
+		}
+      },
+      "Dynamic Connection String": "dynamic-connection-string"
+    },
+    "Working with Data Source": {
+      "Creating a New Data Source": "creating-a-new-data-source.md",
+	  "Query Processing Modes": "classification-of-data-sources-queried-directly-and-extracted",
+	  "Bold BI Intermediate Database": "bold-bi-intermediate-database",
+      "Data Connectors": {
+        "42matters": "42matters",
+        "ActiveCampaign": "activecampaign",
+		"Amazon Athena": "amazon-athena",
+        "Amazon Aurora": "amazon-aurora",
+        "Amazon MWS": "amazon-mws",
+        "Amazon RDS": "amazon-rds",
+        "Amazon Redshift": "amazon-redshift",
+        "Asana": "asana",
+        "App Annie": "app-annie",
+        "Appfolio": "appfolio",
+        "Ask Nicely": "ask-nicely",
+        "Azure SQL Data Warehouse": "azure-sql-data-warehouse",
+        "Azure DevOps": "azure-devops",
+        "Azure Blob": "azure-blob",
+        "Azure Tables": "azure-tables",
+        "Azure Search": "azure-search",
+        "Bitly": "bitly",
+        "Box": "box",
+        "Buffer": "buffer",
+        "CallRail": "callrail",
+        "Campaign Monitor": "campaign-monitor",
+        "CDATA": "cdata",
+        "Chargebee": "chargebee",
+        "Chargify": "chargify",
+        "Chart Beat": "chart-beat",
+        "Commvault": "commvault",
+        "Chart Mogul": "chart-mogul",
+        "ClubReady": "clubready",
+        "Copper": "copper",
+        "Dropbox": "dropbox",
+        "EDI": "edi",
+		"Elasticsearch": "elastic-search",
+        "Excel": "excel",
+        "Facebook": "facebook",
+        "Facebook Ads": "facebook-ads",
+        "Files (JSON, XML, CSV)": "files",
+        "Fitbit": "fitbit",
+        "FreshBooks": "freshbooks",
+        "Freshdesk": "freshdesk",
+        "Freshsales": "freshsales",
+		"FreshworkCRM": "freshwork-crm",
+        "Freshservice": "freshservice",
+        "Fusebill": "fusebill",
+        "Flurry": "flurry",
+        "Gitlab": "gitlab",
+        "GitHub": "github",
+        "Gmail": "gmail",
+        "GoSquared": "go-squared",
+        "Google Ads": "google-ads",
+        "Google AdSense": "google-adsense",
+        "Google Analytics": "google-analytics",
+        "Google BigQuery": "google-bigquery",
+        "Google Calendar": "google-calendar",
+        "Google Cloud SQL": "google-cloud-sql",
+        "Google Drive": "google-drive",
+        "Google Search Console": "google-search-console",
+        "Google Sheets": "google-sheets",
+        "GravityForms": "gravity-forms",
+        "Harvest": "harvest",
+        "Help Scout": "help-scout",
+        "Nutshell": "nutshell",
+        "HubSpot": "hubspot",
+        "InfluxDB": "influxdb",
+        "Infusionsoft": "infusionsoft",
+        "Insightly": "insightly",
+        "Intervals": "intervals",
+        "JIRA": "jira",
+        "Keen": "keen",
+        "Kissmetrics": "kissmetrics",
+        "Lessonly": "lessonly",
+        "Lighthouse": "lighthouse",
+        "LinkedIn": "linkedin",
+        "Live Agent": "live-agent",
+		    "Live web": "live-web",
+        "Mailchimp": "mailchimp",
+        "MariaDB": "mariadb",
+        "MemSQL": "memsql",
+        "Microsoft OneDrive": "ms-one-drive",
+        "Microsoft Dynamics CRM Sales and Service": "microsoft-dynamics-crm",
+        "Microsoft Outlook Calendar": "outlook-calendar",
+        "Microsoft SharePoint": "ms-sharepoint",
+        "Microsoft SQL Server Analysis Services": "ssas",
+        "Mixpanel": "mix-panel",
+        "MongoDB": "mongodb",
+        "MySQL": "mysql",
+        "New Relic": "new-relic",
+        "Nicereply": "nicereply",
+        "OData": "odata",
+        "ODBC": "odbc",
+        "Optimizely": "optimizely",
+        "Oracle": "oracle",
+        "Oracle BI Reports": "oracle-bi-reports",
+        "Origami": "origami",
+        "Pipeline Deals": "pipeline-deals",
+        "Pipedrive": "pipedrive",
+        "Podio": "podio",
+        "PostgreSQL": "postgresql",
+        "Presto": "presto",
+        "Prometheus": "prometheus",
+        "ProofHub": "proofhub",
+        "QuickBooks Online": "quickbooks-online",
+        "QuickBooks Payments": "quickbooks-payments",
+        "Raven DB": "ravendb",
+        "RSS Feeds": "rss-feeds",
+        "Recurly": "recurly",
+        "RESTful Web Services": "restful-web-services",
+        "Salesforce": "salesforce",
+        "Salesforce Reports": "salesforce-reports",
+        "SendGrid": "send-grid",
+        "Sendible": "sendible",
+        "SEOmonitor": "seomonitor",
+        "ServiceNow": "servicenow",
+        "Shopify": "shopify",
+        "Slack": "slack",
+        "Smartsheet": "smartsheet",
+        "Snowflake": "snowflake",
+        "SparkPost": "sparkpost",
+		"SparkSQL": "sparksql",
+        "SQL Data Sources": "sql-data-source",
+        "SQLite": "sqlite",
+        "SquareUp": "squareup",
+        "Stripe": "stripe",
+        "SurveyGizmo": "survey-gizmo",
+        "SurveyMonkey": "surveymonkey",
+        "Twilio": "twilio",
+        "Trello": "trello",
+        "Todoist": "todoist",
+        "Toggl": "toggl",
+		"Wistia": "wistia",
+        "WordPress": "wordpress",
+        "Xero": "xero",
+        "Youtube": "youtube",
+        "Zendesk": "zendesk",
+        "Zendesk Sell": "zendesk-sell",
+        "Zendesk Sunshine": "zendesk-sunshine",
+        "Zendesk Support": "zendesk-support",
+        "Zoho Invoice": "zoho-invoice",
+		"Zoho CRM": "zohocrm"
+      },
+      "Transforming Data": {
+        "Joining Tables": "joining-table",
+        "Formatting Columns": "formatting-column",
+        "Configure Data Filters": "configuring-data-filters",
+        "Configure Expression Columns": "configuring-expression-columns"
+      },
+      "Editing a Data Source": "editing-a-data-source",
+      "Shared Tables": "shared-table",
+      "Deleting a Data Source": "deleting-a-data-source",
+      "Renaming a Data Source": "renaming-a-data-source",
+      "Importing a Data Source": "using-an-existing-data-source",
+      "Combine Data Source": "combine-data-sources",
+      "Editing a Data Connection": "editing-a-data-connection",
+      "User Filter": {
+        "Manual": "user-filter-manual",
+        "Data Source": "user-filter-advanced-data-source-mode",
+        "Query": "user-filter-advanced-query-mode"
+      },
+      "Dashboard Parameters": "dashboard-parameter",
+	    "Data Sampling": "data-sampling",
+      "Configure Dashboard Parameter": "configuring-dashboard-parameters",
+	  "Configure Dashboard Parameter Iterative Mode": "dashboard-parameter-iterative-mode",
+      "Configure Custom Attribute": "configuring-custom-attribute",
+      "Configure Isolation code": "configuring-isolation-code"
+    },
+    "Visualizing Data": {
+      "Visualization Widgets": {
+        "Bar Chart": "bar-chart",
+        "Column Chart": "column-chart",
+        "Stacked Bar Chart": "stacked-bar-chart",
+        "Stacked Column Chart": "stacked-column-chart",
+        "100% Stacked Bar Chart": "100-stacked-bar-chart",
+        "100% Stacked Column Chart": "100-stacked-column-chart",
+        "Area Chart": "area-chart",
+        "Stacked Area Chart": "stacked-area-chart",
+        "100% Stacked Area Chart": "100-stacked-area-chart",
+        "Radar Polar Chart": "radar-polar-chart",
+        "Maps": "map",
+        "Bing Maps": "bing-maps",
+        "Grid": "grid",
+        "Pivot Grid": "pivot-grid",
+        "Tree Map": "tree-map",
+        "Heat Map": "heat-map",
+        "KPI Card": "kpi-card",
+        "Number Card": "number-card",
+        "Radial Gauge": "radial-gauge",
+        "Pie Chart": "pie-chart",
+        "Doughnut Chart": "doughnut-chart",
+        "Pyramid Chart": "pyramid-chart",
+        "Funnel Chart": "funnel-chart",
+        "Line Chart": "line-chart",
+        "Spline Area Chart": "spline-area-chart",
+        "Spline Chart": "spline-chart",
+        "Combination Chart": "combo-chart",
+        "List Box": "list-box",
+        "Combo Box": "combo-box",
+        "Range Navigator": "range-navigator",
+        "Range Slider": "range-slider",
+        "Date Picker": "date-picker",
+        "Period Over Period": "period-over-period",
+        "Image": "image",
+        "Text": "text",
+        "Custom Widget": {
+		  "v4.2.68 or later": "v4.2.68-or-later",
+		  "v4.1.36 or below": "v4.1.36-or-below"
+		},
+        "Combine Widget ": "combine-widget"
+      },
+      "Working with Widgets": {
+        "Filtering": "configuring-widget-filters",
+        "Manual Filtering": "manual-filters",
+        "Sorting": "advanced-sorting",
+        "Linking": "linking-urls-and-dashboards",
+        "Configuring Label Parameters": "configuring-label-parameters",
+        "Aggregating Value Columns": "aggregating-value-columns-based-on-type",
+        "Formatting Measure Type Column": "formatting-measure-type-column",
+        "Configuring Dedicated Filter": "configuring-dedicated-filter",
+        "Customizing Tooltip": "tooltip-customization",
+        "Customizing Container Settings": "customizing-container-appearance",
+        "Commenting a Widget": "commenting-widget",
+        "Viewing underlying data": "view-data",
+        "Forecasting": "forecasting",
+        "Trendlines": "chart-trendlines",
+        "Gridlines": "chart-gridlines",
+        "Widget Actions": "widget-action"
+      }
+    },
+    "Working with Dashboards": {
+      "Dashboard Templates": "dashboards-templates",
+      "Dashboard Themes": "dashboard-theme",
+      "Import Widgets": "import-widgets",
+      "Edit Dashboard": "edit-existing-dashboard",
+      "Configuring Dashboard Filters": "configuring-dashboard-filters",
+      "Commenting Dashboard": "commenting-dashboard",
+      "Publish Dashboard": "publish-dashboard",
+      "Data Alerts": "data-alerts",
+      "Preview Dashboard": {
+        "Maximizing Widget View": "maximizing-widget-view",
+        "Exporting Reports from dashboard": "dashboard-settings",
+        "Exporting Reports from Widgets": {
+          "Exporting Options": "exporting-options"
+        },
+        "Refreshing Dashboard": "refresh-dashboard",
+        "Filtering Views using URL Parameters": "urlparameters"
+      },
+      "Share Dashboards": {
+        "Get Link to Dashboards": "get-dashboard-link",
+        "Manage Permissions": "manage-permissions",
+        "Public Dashboards": "public-dashboards",
+        "Collaboration": "collaboration",
+        "Schedule Dashboards": "schedule-dashboards",
+        "Notifications": "notifications"
+      }
+    },
+    "Multi-Tenancy": {
+      "Create A Tenant": "create-new-site",
+      "Site Administration": {
+        "Rebranding": "rebranding",
+        "Email Settings": "email-settings",
+        "Authentication": {
+          "Default Authentication": "default-authentication",
+          "OAuth 2.0 Support": "oauth-2.0-support",
+          "OpenID Support": "openid-settings",
+          "JSON Web Token": "json-web-token"
+        },
+        "Account Settings": "account-settings",
+        "API Keys": "api-keys",
+        "Manage License": "manage-license"
+      },
+      "Manage Sites": "manage-sites",
+      "Manage Users": "manage-users",
+      "Manage Admin access": "manage-ums-administrator"
+    },
+    "OAuth Configuration": "oauth-configuration",
+    "Security": "security",
+    "Admin Utility": {
+      "Reset Password": "reset-password",
+      "Reset Application Database": "reset-application-database",
+      "v3.3 or older": {
+        "Reset Password for Bold BI version 3.3 or older": "reset-password",
+        "Reset Application Database for Bold BI version 3.3 or older": "reset-application-database"
+      }
+    },
+    "Site Administration": {
+      "Dashboard Settings": {
+        "Public Dashboards": "public-dashboards",
+        "Default views": "default-views",
+        "Auto-save filter": "auto-save-filter",
+        "Theming": "enable-or-disable-dashboard-theme",
+        "Usage analytics": "usage-analytics",
+        "Deployment dashboards": "deployment-dashboard"
+      },
+      "Embed Settings": "embed-settings",
+      "Data Store Settings": "datastore-settings",
+      "Email Settings": "email-settings",
+      "Account Settings": "account-settings",
+      "Existing Database": {
+        "Database Settings": "database-settings",
+        "Database Synchronization Schedule": "imported-database-users-synchronization-schedule"
+      },
+      "Active Directory": {
+        "Active Directory Settings": "active-directory",
+        "Active Directory Synchronization Schedule": "active-directory-synchronization-schedule"
+      },
+      "Azure Active Directory": {
+        "Azure Active Directory Synchronization Schedule": "azure-active-directory-synchronization-schedule"
+      },
+      "SSO": {
+        "Overview": "overview",
+        "Office 365 support": "office-365-support",
+        "Azure Active Directory": "azure-active-directory",
+        "OAuth 2.0 Support": {
+          "Okta": "okta",
+          "OneLogin": "onelogin",
+          "Amazon Cognito": "amazon-cognito",
+          "Auth0": "auth0"
+        },
+        "OpenID Support": {
+          "Okta": "okta",
+          "OneLogin": "onelogin",
+          "Auth0": "auth0",
+          "Keycloak": "keycloak",
+          "RedHat": "redhat"
+        },
+		"JSON Web Token": "json-web-token"
+      },
+      "Usage Analytics Dashboard": "usage-analytics-dashboard"
+    },
+    "Managing Resources": {
+      "Manage Dashboards": {
+        "Open Dashboards": "open-dashboards",
+        "Add Dashboards": "add-dashboards",
+        "Favorite Dashboards": "favorite-dashboards",
+        "Manage Dashboard Views": "manage-dashboard-views",
+        "Manage Multi-Tabbed Dashboards": "manage-multi-tabbed-dashboards",
+        "Share Filtered Dashboards without saving as Views": "share-filtered-dashboards-without-save-views",
+        "Move and Copy Dashboards": "move-and-copy-dashboards",
+        "Version History of Dashboards": "version-history-of-dashboards",
+        "Delete Dashboards": "delete-dashboards",
+        "Share Dashboards": "share-dashboards",
+        "Advanced Dashboard Security": "advanced-dashboard-security",
+        "Publish Dashboards": "publish-dashboards"
+      },
+      "Manage Data Sources": "manage-data-sources",
+      "Manage Pinboards": {
+        "Rename Pinboards": "rename-pinboards",
+        "Duplicate Pinboards": "duplicate-pinboards",
+        "Delete Pinboards": "delete-pinboards",
+        "Set default Pinboards": "set-default-pinboards",
+        "Pin Widgets": "pin-widgets",
+        "Unpin Widgets": "unpin-widgets",
+        "Edit Layout": "edit-layout",
+        "Drag and Drop": "drag-and-drop",
+        "Go to Dashboard": "go-to-dashboard",
+        "Navigate another Pinboard": "navigate-another-pinboard"
+      },
+      "Manage Schedules": "manage-schedules",
+      "Manage Slideshows": "manage-slideshows",
+      "User Profile": "user-profile",
+      "Manage Users": {
+        "Import Users From Existing Database": "import-database-users",
+        "Synchronize Existing Database Users": "synchronization-imported-users-from-exisiting-database",
+        "Import Active Directory Users": "import-active-directory-users",
+        "Synchronize Active Directory Users": "synchronize-active-directory-users",
+        "Import Azure Active Directory Users": "import-azure-active-directory-users",
+        "Synchronize Azure Active Directory Users": "synchronize-azure-active-directory-users"
+      },
+      "Manage Groups": {
+        "Import Active Directory Groups": "import-active-directory-groups",
+        "Synchronize Active Directory Groups": "synchronize-active-directory-groups",
+        "Import Azure Active Directory Groups": "import-azure-active-directory-groups",
+        "Synchronize Azure Active Directory Groups": "synchronize-azure-active-directory-groups",
+        "Import OAuth 2.0 Groups": "import-oauth-groups",
+        "Import OpenID Connect Groups": "import-openid-groups"
+      }
+    },
+    "Rebranding": "rebranding",
+    "Migration Utility": "migration-utility",
+    "Localization": "localization",
+    "User Interface Customization": "user-interface-customization",
+    "Data Security Configuration": "data-security-configuration",
+    "Accessing through Mobile App": {
+      "Getting Started": "getting-started",
+      "Dashboard": "dashboard",
+      "Settings": "settings"
+    },
+    "White Labeling": "white-label-boldbi-mobile-app",
+    "REST API Reference": {
+      "Site Administration": {
+        "v1.0": {
+          "API Reference": "api-reference?html=true"
+        },
+        "v2.0": {
+          "API Reference": "api-reference?html=true"
+        }
+      },
+      "Interact with REST API": "interact-with-rest-api",
+      "v1.0": {
+        "API Reference": "api-reference?html=true",
+        "Try it now": "try-it-now?html=true"
+      },
+      "v2.0": {
+        "API Reference": "api-reference?html=true",
+        "Try it now": "try-it-now?html=true"
+      },
+      "v3.0": {
+        "API Reference": "api-reference?html=true",
+        "Try it now": "try-it-now?html=true"
+      },
+      "v4.0": {
+        "API Reference": "api-reference?html=true",
+        "Try it now": "try-it-now?html=true"
+      }
+    },
+    "Responsive Visualizations": {
+      "Responsive Design in Bold BI Dashboard": "responsive-design-bold-bi-dashboard",
+      "Responsive Design in Bold BI Server": "responsive-design-bold-bi-server"
+    },
+    "FAQ": {
+      "What are the resources will be generated in the installed machine?": "what-all-are-the-files-and-folders-will-be-generated-in-the-installed-machine",
+      "How to change the user after installation of Bold BI on Linux?":"change-the-user-after-installing-bold-bi-on-linux",
+	    "How to change the binding in the Bold BI Embedded?": "how-to-change-binding-in-bold-bi-embedded",
+      "How to change the binding in the Bold BI Embedded version 4.1.36?": "how-to-change-binding-in-bold-bi-embedded-v4.1.36",
+      "How to change the binding in the Bold BI Embedded version below 4.1.36?": "how-to-change-binding-in-bold-bi-embedded-below-v4.1.36",
+      "Where can I find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files",
+      "How to update the database in Bold BI Application?": "how-to-reset-database-for-bold-bi-application",
+      "How to install the PhantomJS manually?": "how-to-install-phantomjs-manually",
+      "What are the features needed to be enabled in IIS to run Bold BI Application in Windows Client OS?": "features-needed-to-enable-in-iis-to-run-bold-bi-in-win-client-os",
+      "What are the features needed to be enabled in IIS to run Bold BI Application in Windows Server OS?": "features-needed-to-enable-in-iis-to-run-bold-bi-in-win-server-os",
+      "HTTP Error 500.19-Cannot log in locally(0x8007052e)?": "http-error-500-19-can-not-logon-locally",
+      "How to restrict embedding Bold BI site into another application using an iFrame?": "how-to-restrict-the-bold-bi-site-embed-into-iframe",
+      "How to register Bold BI web application with Azure Active Directory?": "how-to-register-bold-bi-web-application-with-azure-active-directory",
+      "How to register Bold BI mobile application with Azure Active Directory?": "how-to-register-bold-bi-mobile-application-with-azure-active-directory",
+      "How to apply filter in Grid widget based on your list of keywords?": "how-to-apply-the-filter-for-any-column-value-based-on-the-multiple-words",
+      "How to customize the Bold BI server login page?": "how-to-customize-the-login-page-of-bold-bi-site",
+      "How to connect a live file(CSV/JSON/XML/Excel) in Bold BI Dashboard?": "how-to-connect-a-live-xml-or-json-or-csv-or-excel-file-in-bold-bi-dashboard",
+      "How to resolve Bold BI application pool crashing which occurred due to Brotli compression?": "how-to-resolve-bold-bi-application-pool-crashing",
+      "How the data is loaded while rendering the dashboard?": "how-the-data-is-loaded-while-rendering-the-dashboard",
+      "Do you need an internet connection to render sample dashboards in Bold BI?": "do-you-need-an-internet-to-render-sample-dashboards-in-bold-bi",
+      "Comparison between JavaScript Embedding vs iFrame Embedding": "comparison-between-javascript-embedding-vs-iframe-embedding",
+      "How to host Bold BI application as a Sub Application in IIS?": "how-to-host-bold-bi-application-as-a-sub-application-in-iis",
+      "How to resolve Login failed for user in Windows Authentication mode?": "how-to-resolve-login-failed-for-user-in-windows-authentication-mode",
+      "How to manually update the license in Bold BI Build?": "how-to-manually-update-the-license",
+      "How to resolve the issue - License server unreachable?": "how-to-resolve-license-server-unreachable-issue-in-bold-bi",
+      "How to change DNS for each site in Bold BI Embedded?": "how-to-change-dns-for-each-tenant-site",
+      "How to change DNS for each site in Bold BI Embedded version 4.1.36 or below?": "how-to-change-dns-for-each-tenant-site-v4.1.36-or-below",
+      "How to create a separate axis for the multiple series charts?": "how-to-create-a-separate-axis-for-the-multiple-series-charts",
+      "How many server deployments supported in a single Bold BI license?": "how-many-server-deployments-supported-in-a-single-bold-bi-license",
+      "How to get the dashboard list based on group for the specific user?": "how-to-get-the-dashboard-list-based-on-group-for-the-specific-user",
+      "What is the purpose of the databases used in the Bold BI?": "purpose-of-the-databases-used-in-the-bold-bi.md",
+      "How web-based data source works with Bold BI?": "how-web-based-data-source-works-with-bold-bi-embedded.md",
+      "When you should choose multi-tenancy and with row-level security": "when-you-should-choose-multi-tenancy-and-with-row-level-security.md",
+      "How to speed up the data access in SQL Server?": "how-to-speed-up-the-data-access-in-sql-server.md",
+      "How the interactions can be made between the Bold BI and external application?": "how-the-interactions-can-be-made-between-the-bold-bi-and-external-application.md",
+      "How to share the dashboard to any users securely": "dashboard-authorized-access.md",
+      "How to access nested key-values in Snowflake Data source": "accessing-nested-key-values-in-snowflake-data-source.md",
+      "What are the database permissions required to set up Bold BI Embedded?": "what-are-the-database-permissions-required-to-set-up-bold-bi-embedded.md",
+	  "How to add a new data connector under Bold BI": "how-to-add-a-new-data-connector-under-bold-bi",
+	  "How to standardize column name from different data sources":"how-to-standardize-column-name-from-different-data-sources",
+	  "How to apply linking configured with Stored Procedure": "how-to-apply-linking-configured-with-stored-procedure",
+	  "How to add threshold to a Chart widget":"how-to-add-threshold-to-a-chart-widget",
+	  "How to pass a parameter to Web API connector when view and embedding a dashboard": "how-to-pass-a-parameter-to-web-api-connector-when-view-and-embedding-a-dashboard",
+      "How to use groups in Bold BI?":"how-to-use-groups-in-bold-bi",
+      "How to customize side bar menu based on user permission?":"how-to-customize-side-bar-menu",
+	  "How to resolve jQuery conflict in embedding": "how-to-resolve-jquery-conflict-in-embedding",
+    "How to pass dashboard parameter in iframe while embedding a dashboard": "how-to-pass-dashboard-parameter-in-iframe-embedding-a-dashboard",
+      "How to restart the Bold BI Embedded application":"how-to-restart-the-bold-bi-embedded-application",
+	  "How to connect data sources with SSH connection in Bold BI":"how-to-connect-data-sources-with-ssh-connection-in-bold-bi",
+	  "How to enable SSL through connection parameters for PostgreSQL data source":"how-to-enable-ssl-through-connection-parameters-for-postgresql-data-source",
+      "How to transpose the data columns and rows in SQL data source":"how-to-transpose-the-data-columns-and-rows-in-sql-data-source",
+      "How to access the custom JSON data using PostgreSQL data source":"how-to-access-the-custom-json-data-using-postgresql-data-source",
+      "How to convert a timestamp column from one timezone to another in the PostgreSQL data source":"how-to-convert-timestamp-column-from-one-timezone-to-another-in-the-postgresql-datasource",
+      "How to apply Row-level Security in Elastic search data source":"how-to-apply-row-level-security-in-elastic-search-data-source",
+      "How to query Snowflake records using code view mode in Bold BI":"how-to-query-snowflake-records-using-code-view-mode-in-bold-bi",
+      "How to allow users to create dashboards without modifying the existing data sources": "how-to-allow-users-to-create-dashboards-without-modifying-the-existing-data-sources",
+	  "How to get offline unlock key?" : "how-to-get-offline-unlock-key",
+	  "How to connect Google Cloud SQL data source with JBDC connection string": "how-to-connect-google-cloud-sql-data-source-with-jdbc-connection-string",
+      "How to execute R language scripts using MS SQL data source in Bold BI":"how-to-execute-r-language-scripts-using-ms-sql-datasource-in-bold-bi",
+      "How to execute the Microsoft SQL table-valued function in Bold BI": "how-to-execute-the-ms-sql-table-valued-function-in-bold-bi",
+      "How to connect polymorphic databases in Bold BI": "how-to-connect-polymorphic-databases-in-bold-bi",
+      "How to group the data using Bold BI": "how-to-group-the-data-using-bold-bi",
+      "How to overwrite the existing dashboard": "how-to-overwrite-the-existing-dashboard"
+	}
+  }
+}
