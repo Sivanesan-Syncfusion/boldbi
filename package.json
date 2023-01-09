@@ -90,7 +90,7 @@
     "typo-js": "1.0.3",
     "typography": "0.16.17",
     "typography-theme-wordpress-2016": "0.15.10",
-    "webpack": "4.28.4",
+    "webpack": "5.0.0",
     "yargs": "2.3.0"
   }
 }
