@@ -7,7 +7,9 @@
   "scripts": {
     "build": "gulp build",
     "test": "gulp test",
-    "postinstall": "gulp postinstall"
+    "postinstall": "gulp postinstall",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@stackblitz/sdk": "1.3.0",
@@ -24,7 +26,7 @@
     "eslint": "4.19.1",
     "eslint-plugin-react": "7.11.1",
     "gatsby": "2.32.8",
-    "gatsby-cli": "2.7.4",
+    "gatsby-cli": "2.12.14",
     "gatsby-link": "2.2.29",
     "gatsby-plugin-catch-links": "2.0.8",
     "gatsby-plugin-remove-generator": "1.0.8",
@@ -36,7 +38,7 @@
     "gatsby-plugin-polyfill-io": "1.0.5",
     "gatsby-plugin-react-helmet": "3.0.2",
     "gatsby-plugin-react-helmet-canonical-urls": "1.4.0",
-    "gatsby-plugin-sharp": "2.0.12",
+    "gatsby-plugin-sharp": "2.0.16",
     "gatsby-plugin-styled-components": "3.0.2",
     "gatsby-plugin-typography": "2.2.1",
     "gatsby-remark-autolink-headers": "2.0.11",
@@ -46,7 +48,7 @@
     "gatsby-remark-prismjs": "3.0.3",
     "gatsby-remark-responsive-iframe": "2.0.6",
     "gatsby-remark-smartypants": "2.0.6",
-    "gatsby-source-filesystem": "2.0.8",
+    "gatsby-source-filesystem": "2.0.22",
     "gatsby-transformer-json": "2.1.5",
     "gatsby-transformer-remark": "2.1.12",
     "gatsby-transformer-sharp": "2.1.8",
@@ -91,6 +93,8 @@
     "typography": "0.16.17",
     "typography-theme-wordpress-2016": "0.15.10",
     "webpack": "4.28.4",
-    "yargs": "2.3.0"
-  }
+    "yargs": "2.3.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
