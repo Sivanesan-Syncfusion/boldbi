@@ -14,7 +14,7 @@
     "@syncfusion/ej2-react-buttons": "*",
     "@syncfusion/ej2-react-dropdowns": "*",
     "@syncfusion/ej2-react-navigations": "*",
-    "@syncfusion/ej2-react-popups": "*",
+    "@syncfusion/ej2-react-popups": "24.2.8",
     "ajv": "6.8.1",
     "aws-sdk": "2.332.0",
     "babel-plugin-remove-graphql-queries": "2.7.24",
